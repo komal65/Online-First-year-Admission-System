@@ -12,21 +12,15 @@
 
 
 
+![Screenshot 2024-03-04 122516](https://github.com/komal65/Online-First-year-Admission-System/assets/114643264/808cb671-b291-457c-b315-226d2bce5062)
+
+![Screenshot 2024-02-03 145520](https://github.com/komal65/Online-First-year-Admission-System/assets/114643264/194814f3-c1a0-45a8-88b4-863db3dada35)
+![Screenshot 2024-02-03 145558](https://github.com/komal65/Online-First-year-Admission-System/assets/114643264/04c33447-8d98-4da6-9c34-eab9ded135c7)
+![Screenshot 2024-03-04 122611](https://github.com/komal65/Online-First-year-Admission-System/assets/114643264/0d0a74c7-2333-49e4-ac0d-cde7ab66906b)
+
+![Screenshot 2024-02-03 152541](https://github.com/komal65/Online-First-year-Admission-System/assets/114643264/208b83aa-ea67-4004-91b0-6354a10facdb)
 
 
 
 
-
-
-
-![PCCOER_home](https://github.com/komal65/Online-Admission-Website/assets/114643264/0c879000-9719-4f8d-8d1a-b2e8808c68da) 
-
-
-![admission_form](https://github.com/komal65/Online-Admission-Website/assets/114643264/85acef74-d2a2-4516-8ec9-609b3f6bf871)
-
-
-![document uploading](https://github.com/komal65/Online-Admission-Website/assets/114643264/9f90a463-3b4c-4db7-9270-fe38b42a8f5d)
-
-
-![payment](https://github.com/komal65/Online-Admission-Website/assets/114643264/f5fb53c2-fd6d-4468-a646-86f53edf9c81)
 
