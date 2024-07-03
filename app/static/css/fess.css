@@ -1,0 +1,320 @@
+header {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.pcetlogo img {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 6rem;
+}
+
+.pccoerlogo img {
+    height: 7rem;
+    width: 7rem;
+    margin-left: 6rem;
+}
+
+.college {
+    text-align: center;
+    width: 100rem;
+    line-height: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+#collegename {
+    color: #3b5999;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#pcet {
+    color: #3b5999;
+    letter-spacing: 1px;
+    line-height: 0rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#description,
+#description1 {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    line-height: 1rem;
+    margin-top: -0.7rem;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 9rem;
+
+}
+
+#description1 {
+    margin-top: -0.5rem;
+}
+
+/* #address{
+    color:#3b5999;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 0.4rem;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: -0.3rem;
+    font-weight: bold;
+} */
+.nav {
+    height: 2.5rem;
+    background-color: rgb(103, 201, 246);
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav ul {
+    width: 40rem;
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav li {
+    height: 2.3rem;
+    margin-top: -1rem;
+
+
+}
+
+.nav li:hover {
+    background-color: #0d68c4;
+}
+
+.paymentlabel {
+    height: 2.9rem;
+    width: 15rem;
+    background-color: #3b5999;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1.3rem;
+    margin-left: 38rem;
+    position: relative;
+    top: 1rem
+}
+
+.paymentlabel p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    /* font-weight: 500; */
+    color: white;
+    padding: 0.3rem;
+    letter-spacing: 1.3px;
+}
+
+.paymentlabel:hover {
+    background-image: linear-gradient(to right, rgb(10, 4, 114), rgb(99, 149, 243));
+}
+
+.options ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3.5rem;
+    margin-right: 2.5rem;
+}
+
+.options ul li {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    background-color: #3b5999;
+    text-align: -webkit-center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    /* align-items: center; */
+}
+
+#three {
+    width: 20rem;
+}
+
+#four {
+    width: 13rem;
+}
+
+.options ul li:hover {
+    background-image: linear-gradient(to right, rgb(10, 4, 114), rgb(99, 149, 243));
+}
+
+.dd {
+    margin-left: 2.5rem;
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dd #boldtext {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.dd #notbold {
+    font-size: 1rem;
+    line-height: 0.8rem;
+    font-weight: lighter;
+}
+
+.dd #pccoername {
+    font-weight: bold;
+}
+
+.netbank {
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.netbank span {
+    background-color: rgb(92, 197, 22);
+    padding: 4px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.netbank span:hover {
+    background-image: linear-gradient(to right, rgb(92, 197, 22), rgb(170, 240, 123));
+}
+
+.netbank #boldnet {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:414px) {
+    header {
+        height: 30rem;
+    }
+
+    .pccoerlogo {
+        margin-left: 2rem;
+        height: 9rem;
+    }
+
+    .paymentlabel {
+        height: 2rem;
+        width: 10rem;
+        margin-left: 2.3rem;
+
+    }
+
+    .paymentlabel p {
+        font-size: 1.1rem;
+    }
+
+    .options ul {
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-right: 2.3rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .options ul li{
+        height: 1.3rem;
+        width: 6rem;
+        font-size: 1.1rem;
+        padding: 0.2rem;
+        margin-top: 0.2rem;
+    }
+    #three{
+        width: 13.5rem;
+    }
+    #four{
+        width: 9rem;
+    }
+    .dd{
+        margin-top: 2.3rem;
+    }
+    .dd #boldtext{
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    .dd #notbold{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        
+    }
+    .netbank{
+        margin-top: 1.8rem;
+    }
+    .netbank #boldnet{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    header{
+        height: 10rem;
+    }
+    #collegename{
+        font-size: 1.859rem;
+        letter-spacing: 0.8px;
+    }
+    .pccoerlogo{
+        margin-left:5rem;
+    }
+    .pccoerlogo img{
+        margin-right: 2rem;
+        margin-left: 0.1rem;
+    }
+    .pcetlogo img{
+        margin-left: 1.2rem;
+    }
+    .nav{
+        width:100rem;
+    }
+    .nav ul{
+        margin-right: 20rem;
+    }
+    .paymentlabel{
+        height: 2.5rem;
+        margin-left: 40rem;
+    }
+    .paymentlabel p{
+        padding: 0.4rem;
+        font-size: 1.3rem;
+    }
+    .options ul{
+        margin-right: 2.3rem;
+        margin-left: 15rem;
+        flex-wrap: nowrap;
+        gap:4rem;
+    }
+    .options ul li{
+        height: 1.7rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+    }
+}

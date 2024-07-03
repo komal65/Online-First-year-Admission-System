@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="{% static '/css/fess.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="pccoerlogo">
+            <img src="{%static 'images/pccoer.in.png' %}" alt="pccoer logo" />
+        </div>
+        <div class="college">
+            <p id="pcet">
+                Pimpri Chinchwad Education Trust's
+            </p>
+            <p id="collegename" >
+                pimpri chinchwad college of engineering & research
+            </p>
+            <p id="description">
+                An ISO 9001:2015 Certified Institute / Computer Engineering | Electronics & Telecommunication
+                Engineering | Civil Engineering |
+                Mechanical Engineering Programs are NBA Accredited, NAAC A++ Accredited
+            </p>
+            <p id="description1">(Approved by Govt. of Maharashtra, Affiliated to SPPU, Approved by AICTE, DTE CODE -
+                6822)</p>
+        </div>
+        <div class="pcetlogo">
+            <img src="{%static 'images/pcetlogo.jpeg' %}" alt="pcet logo" />
+        </div>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Department</li>
+            <li> Admission</li>
+        </ul>
+    </nav>
+    <div class="paymentlabel">
+        <p id="pay">PAYMENT</p>
+    </div>
+    <div class="options">
+        <ul>
+            <li>Cheque</li>
+            <li>Cash</li>
+            <li id="three">Demand Draft(DD)</li>
+            <li id="four">Netbanking</li>
+        </ul>
+    </div>
+    <div class="dd">
+        <p id="boldtext">
+            Demand Draft(DD) and Cheque Payment:
+        </p>
+        <p id="notbold">
+            Please make the Demand Draft or Cheque payable to <span id="pccoername">"Pimpri Chinchwad College of
+                Engineering and Research."</span> Include your application details.
+        </p>
+    </div>
+    <div class="netbank">
+        <p id="boldnet">To make a payment via Netbanking:</p>
+        <ol>
+            <li>Click the <span>Pay U Money</span></li>
+            <li>Select your name</li>
+            <li>Follow the prompts to enter payment details</li>
+            <li>Complete the transaction</li>
+        </ol>
+    </div>
+</body>
+
+</html>
